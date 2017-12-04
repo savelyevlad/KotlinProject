@@ -3,6 +3,9 @@ package mainPackage
 import javaClasses.PublicStaticObjects
 import java.util.*
 
+var a : Int = 0
+var b : Int = 0
+
 fun main(args: Array<String>) {
     println("Application started!")
 
@@ -15,6 +18,3 @@ fun main(args: Array<String>) {
 
     PublicStaticObjects.start()
 }
-
-var a : Int = 0
-var b : Int = 0
